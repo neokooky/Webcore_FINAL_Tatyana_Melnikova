@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSP Services</title>
+    <link rel="stylesheet" href="swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <aside class="main-nav hidden">
+    <header class="main-nav__header">
+        <button class="main-nav__close-button button">
+            <img src="img/icons/close.svg" 
+            alt=""
+            class="icon"
+            width="40"
+            height="40">
+        </button>
+        <a class="main-nav__logo logo link">
+            <img src="img/logo.svg" alt="Logotype CPS" class="logo__image">
+        </a>
+        <button class="main-nav__check-button button">
+            <img src="img/icons/checkstatus.svg"
+            alt="" 
+            class="icon"
+            width="40"
+            height="40">
+        </button>
+    </header>
+    <nav>
+        <ul class="main-nav__list">
+            <li class="main-nav__item">
+                <a href="#" class="main-nav__link main-nav__link--active link">Ремонт техники</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="#" class="main-nav__link link">Услуги и сервисы</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="#" class="main-nav__link link">Корпоративным клиентам</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="#" class="main-nav__link link">Продавцам техники</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="#" class="main-nav__link link">Партнерам</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="#" class="main-nav__link link">Производителям</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="#" class="main-nav__link link">Наши сервисные центры</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="#" class="main-nav__link link">Контакты</a>
+            </li>
+        </ul>
+    </nav>
+    <footer class="main-nav__footer">
+        <ul class="feedback main-nav__feedback list-reset">
+            <li class="feedback__item">
+                <button class="feedback__call-button button">
+                    <img src="img/icons/call.svg"
+                    alt="" 
+                    class="icon"
+                    width="40"
+                    height="40">
+                </button>
+            </li>
+            <li class="feedback__item">
+                <button class="feedback__chat-button button">
+                    <img src="img/icons/chat.svg"
+                    alt="" 
+                    class="icon"
+                    width="40"
+                    height="40">
+                </button>
+            </li>
+            <li class="feedback__item">
+                <button class="feedback__profile-button button">
+                    <img src="img/icons/profile.svg"
+                    alt="" 
+                    class="icon"
+                    width="40"
+                    height="40">
+                </button>
+            </li>
+        </ul>
+        <address>
+            <a href="mailto:mail@cps.com" class="main-nav__email link">mail@cps.com</a>
+            <a href="tel:88008908900" class="main-nav__phone-number link">8 800 890 8900</a>
+        </address>
+        <ul class="language main-nav__language list-reset">
+            <li class="language__item">
+                <button class="language__button language__button--active button">Ru</button>
+            </li>
+            <li class="language__item">
+                <button class="language__button button">En</button>
+            </li>
+            <li class="language__item">
+                <button class="language__button button">Ch</button>
+            </li>
+        </ul>
+    </footer>
+    </aside>
+
+    <div class="page">
+
+      <header class="header">
+          <div class="header__wrapper">
+              <button class="header__burger-button button">
+                  <img src="img/icons/burger.svg" 
+                  alt=""
+                  class="icon"
+                  width="40"
+                  height="40">
+              </button>
+              <div class="header__main">
+                  <a class="logo link">
+                      <img src="img/logo.svg" alt="Logotype CPS" class="logo__image">
+                  </a>
+                  <ul class="feedback header__feedback list-reset">
+                      <li class="feedback__item">
+                          <button class="feedback__call-button button">
+                              <img src="img/icons/call.svg"
+                              alt="" 
+                              class="icon"
+                              width="40"
+                              height="40">
+                          </button>
+                      </li>
+                      <li class="feedback__item">
+                          <button class="feedback__chat-button button">
+                              <img src="img/icons/chat.svg"
+                              alt="" 
+                              class="icon"
+                              width="40"
+                              height="40">
+                          </button>
+                      </li>
+                      <li class="feedback__item">
+                          <button class="feedback__profile-button button">
+                              <img src="img/icons/profile.svg"
+                              alt="" 
+                              class="icon"
+                              width="40"
+                              height="40">
+                          </button>
+                      </li>
+                  </ul>
+              </div>
+              <div class="side-block">
+                  <ul class="side-block__list">
+                      <li class="side-block__item">
+                          <button class="header__repair-button button">
+                              <img src="img/icons/repair.svg"
+                              alt="" 
+                              class="icon"
+                              width="40"
+                              height="40">
+                          </button>
+                      </li>
+                      <li class="side-block__item">
+                          <button class="header__check-button button">
+                              <img src="img/icons/checkstatus.svg"
+                              alt="" 
+                              class="icon"
+                              width="40"
+                              height="40">
+                          </button>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </header>
+
+      <main class="hero">
+          <h1 class="h1 hidden">CSP Services</h1>
+
+          <section class="services-menu">
+              <div class="services-menu--desktop-version">
+                  <h2 class="services-menu__title h2">Услуги и сервисы</h1>
+                  <ul class="services-menu__buttons">
+                      <li class="services-menu__button">
+                          <button class="services-menu__repair-button button">
+                              Оставить заявку
+                              <img src="img/icons/repair.svg"
+                              alt="" 
+                              class="icon"
+                              width="40"
+                              height="40">
+                          </button>
+                      </li>
+                      <li class="services-menu__button">
+                          <button class="services-menu__check-button button">
+                              Статус ремонта
+                              <img src="img/icons/checkstatus.svg"
+                              alt="" 
+                              class="icon"
+                              width="40"
+                              height="40">
+                          </button>
+                      </li>
+                  </ul>
+              </div>
+              <nav class="slide-menu">
+                  <ul class="slide-menu__list">
+                      <li class="slide-menu__item slide-menu__item--active">
+                          <a href="#" class="slide-menu__link link">Ремонтируемые бренды</a>
+                      </li>
+                      <li class="slide-menu__item">
+                          <a href="#" class="slide-menu__link link">Дополнительные услуги</a>
+                      </li>
+                      <li class="slide-menu__item">
+                          <a href="#" class="slide-menu__link link">Цены на услуги</a>
+                      </li>
+                      <li class="slide-menu__item">
+                          <a href="#" class="slide-menu__link link">Адреса сервисных центров</a>
+                      </li>
+                      <li class="slide-menu__item">
+                          <a href="#" class="slide-menu__link link">Специальные цены</a>
+                      </li>
+                      <li class="slide-menu__item">
+                          <a href="#" class="slide-menu__link link">Отзывы</a>
+                      </li>
+                  </ul>
+              </nav>
+          </section>
+
+          <section class="description hero__description">
+              <div class="description__paragraphs">
+                  <p class="description__paragraph">
+                      Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                  </p>
+                  <p class="description__paragraph">
+                      Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+                  </p>
+                  <button class="button--view-more hero__button--view-more button">Читать далее</button>
+              </div>
+              <img 
+              src="img/hero__image.jpg" 
+              alt="Company logo and working hours" 
+              class="description__image"
+              width="320"
+              height="176">
+          </section>
+
+          <section class="brands hero__brands">
+            <h2 class="brands__title h3">Ремонт техники различных брендов</h2>
+            <div class="brands__swiper swiper">
+                <ul class="brands__list list-reset swiper-wrapper">  
+                    <li class="brands__item swiper-slide">
+                        <a class="brands__link link">
+                            <img
+                            width="108"
+                            height="32" 
+                            src="img/1.5/Lenovo_logo.svg" 
+                            alt="Lenovo logotype" 
+                            class="brands__logo">
+                            <img 
+                            width="40"
+                            height="40"   
+                            src="img/icons/go.svg" 
+                            alt="" 
+                            class="icon">
+                        </a>
+                    </li>
+                    <li class="brands__item swiper-slide">
+                        <a class="brands__link link">
+                            <img
+                            width="116"
+                            height="38" 
+                            src="img/1.5/Samsung_logo.svg" 
+                            alt="Samsung logotype" 
+                            class="brands__logo">
+                            <img 
+                            width="40"
+                            height="40"
+                            src="img/icons/go.svg" 
+                            alt="" 
+                            class="icon">
+                        </a>
+                    </li>
+                    <li class="brands__item swiper-slide">
+                        <a class="brands__link link">
+                            <img
+                            width="44"
+                            height="44" 
+                            src="img/1.5/Apple_logo.svg" 
+                            alt="Apple logotype" 
+                            class="brands__logo">
+                            <img 
+                            width="40"
+                            height="40"
+                            src="img/icons/go.svg" 
+                            alt="" 
+                            class="icon">
+                        </a>
+                    </li>
+                    <li class="brands__item swiper-slide">
+                        <a class="brands__link link">
+                            <img
+                            width="128"
+                            height="21" 
+                            src="img/1.5/ViewSonic_logo.svg" 
+                            alt="Viewsonic logotype" 
+                            class="brands__logo">
+                            <img 
+                            width="40"
+                            height="40"
+                            src="img/icons/go.svg" 
+                            alt="" 
+                            class="icon">
+                        </a>
+                    </li>
+                    <li class="brands__item swiper-slide">
+                        <a class="brands__link link">
+                            <img
+                            width="128"
+                            height="29" 
+                            src="img/1.5/Bosch_logo.svg" 
+                            alt="Bosch logotype" 
+                            class="brands__logo">
+                            <img 
+                            width="40"
+                            height="40"   
+                            src="img/icons/go.svg" 
+                            alt="" 
+                            class="icon">
+                        </a>
+                    </li>
+                    <li class="brands__item swiper-slide">
+                        <a class="brands__link link">
+                            <img
+                            width="52"
+                            height="52" 
+                            src="img/1.5/HP_logo.svg" 
+                            alt="HP logotype" 
+                            class="brands__logo">
+                            <img 
+                            width="40"
+                            height="40"
+                            src="img/icons/go.svg" 
+                            alt="" 
+                            class="icon">
+                        </a>
+                    </li>
+                    <li class="brands__item swiper-slide">
+                        <a class="brands__link link">
+                            <img
+                            width="94"
+                            height="24" 
+                            src="img/1.5/Acer_logo.svg" 
+                            alt="Acer logotype" 
+                            class="brands__logo">
+                            <img 
+                            width="40"
+                            height="40"
+                            src="img/icons/go.svg" 
+                            alt="" 
+                            class="icon">
+                        </a>
+                    </li>
+                    <li class="brands__item swiper-slide">
+                        <a class="brands__link link">
+                            <img
+                            width="128"
+                            height="26" 
+                            src="img/1.5/Sony_logo.svg" 
+                            alt="Sony logotype" 
+                            class="brands__logo">
+                            <img 
+                            width="40"
+                            height="40"
+                            src="img/icons/go.svg" 
+                            alt="" 
+                            class="icon">
+                        </a>
+                    </li>
+                    <li class="brands__item swiper-slide">
+                        <a class="brands__link link">
+                            <img
+                            width="128"
+                            height="29" 
+                            src="img/1.5/Bosch_logo.svg" 
+                            alt="Bosch logotype" 
+                            class="brands__logo">
+                            <img 
+                            width="40"
+                            height="40"   
+                            src="img/icons/go.svg" 
+                            alt="" 
+                            class="icon">
+                        </a>
+                    </li>
+                    <li class="brands__item swiper-slide">
+                        <a class="brands__link link">
+                            <img
+                            width="52"
+                            height="52" 
+                            src="img/1.5/HP_logo.svg" 
+                            alt="HP logotype" 
+                            class="brands__logo">
+                            <img 
+                            width="40"
+                            height="40"
+                            src="img/icons/go.svg" 
+                            alt="" 
+                            class="icon">
+                        </a>
+                    </li>
+                    <li class="brands__item swiper-slide">
+                        <a class="brands__link link">
+                            <img
+                            width="94"
+                            height="24" 
+                            src="img/1.5/Acer_logo.svg" 
+                            alt="Acer logotype" 
+                            class="brands__logo">
+                            <img 
+                            width="40"
+                            height="40"
+                            src="img/icons/go.svg" 
+                            alt="" 
+                            class="icon">
+                        </a>
+                    </li>
+                    <li class="brands__item swiper-slide">
+                        <a class="brands__link link">
+                            <img
+                            width="128"
+                            height="26" 
+                            src="img/1.5/Sony_logo.svg" 
+                            alt="Sony logotype" 
+                            class="brands__logo">
+                            <img 
+                            width="40"
+                            height="40"
+                            src="img/icons/go.svg" 
+                            alt="" 
+                            class="icon">
+                        </a>
+                    </li>
+                </ul>
+                <div class="swiper-pagination brands__pagination"></div>
+              </div>
+              <button class="button--view-more brands__button-view--more button" id="toggle-button-brands">Показать все</button>
+            </section>
+            
+            <section class="devices hero__devices">
+              <h2 class="devices__title h3">Ремонт различных видов техники</h2>
+              <div class="devices__swiper swiper">
+                <ul class="devices__list list-reset swiper-wrapper">
+                  <li class="devices__item swiper-slide">
+                    <a class="devices__link link">
+                      <h4 class="devices__link-title h4">Ремонт ноутбуков</h4>
+                      <img 
+                      width="40"
+                      height="40"
+                      src="img/icons/go.svg" 
+                      alt="" 
+                      class="icon icon--down-left">
+                  </a>
+                </li>
+                <li class="devices__item swiper-slide">
+                  <a class="devices__link link">
+                    <h4 class="devices__link-title h4">Ремонт планшетов</h4>
+                    <img 
+                    width="40"
+                    height="40"
+                    src="img/icons/go.svg" 
+                    alt="" 
+                    class="icon icon--down-left">
+                  </a>
+                </li>
+                <li class="devices__item swiper-slide">
+                  <a class="devices__link link">
+                    <h4 class="devices__link-title h4">Ремонт ПК</h4>
+                    <img 
+                    width="40"
+                    height="40"
+                    src="img/icons/go.svg" 
+                    alt="" 
+                    class="icon icon--down-left">
+                  </a>
+                </li>
+                <li class="devices__item swiper-slide">
+                  <a class="devices__link link">
+                    <h4 class="devices__link-title h4">Ремонт  мониторов</h4>
+                    <img 
+                    width="40"
+                    height="40"
+                    src="img/icons/go.svg" 
+                    alt="" 
+                    class="icon icon--down-left">
+                  </a>
+                </li>
+                <li class="devices__item swiper-slide">
+                  <a class="devices__link link">
+                    <h4 class="devices__link-title h4">Ремонт игровых консолей</h4>
+                    <img 
+                    width="40"
+                    height="40"
+                    src="img/icons/go.svg" 
+                    alt="" 
+                    class="icon icon--down-left">
+                  </a>
+                </li>
+                <li class="devices__item swiper-slide">
+                  <a class="devices__link link">
+                    <h4 class="devices__link-title h4">Ремонт офисной техники</h4>
+                    <img 
+                    width="40"
+                    height="40"
+                    src="img/icons/go.svg" 
+                    alt="" 
+                    class="icon icon--down-left">
+                  </a>
+                </li>
+                <li class="devices__item swiper-slide">
+                  <a class="devices__link link">
+                    <h4 class="devices__link-title h4">Ремонт смартфонов</h4>
+                    <img 
+                    width="40"
+                    height="40"
+                    src="img/icons/go.svg" 
+                    alt="" 
+                    class="icon icon--down-left">
+                  </a>
+                </li>
+                <li class="devices__item swiper-slide">
+                  <a class="devices__link link">
+                    <h4 class="devices__link-title h4">Ремонт комплектующих</h4>
+                    <img 
+                    width="40"
+                    height="40"
+                    src="img/icons/go.svg" 
+                    alt="" 
+                    class="icon icon--down-left">
+                  </a>
+                </li>
+              </ul>
+              <div class="swiper-pagination devices__pagination"></div>
+              <button class="button--view-more devices__button-view--more button" id="toggle-button-devices">Показать все</button>
+            </div>
+          </section>
+          
+        </main>
+      </div>
+      
+      <script src="swiper-bundle.min.js"></script>
+      <script src="main.js"></script>
+
+  </body>
+</html>
